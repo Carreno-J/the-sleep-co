@@ -5,18 +5,7 @@
 }
 
 
-/* temporary styles for structual html */
 
-section {
-    padding: 0.5rem;
-    border: 1px solid rgb(225,225,225);
-}
-
-body {
-    
-    font-family: 'catamaran', sans-serif;
-    color: #192b37;
-}
 
 
 
@@ -29,9 +18,16 @@ body {
 
 
 /* universal styles & utility classes */
+body {
+    
+    font-family: 'catamaran', sans-serif;
+    color: #192b37;
+}
+
 
 .padded { padding: 5%;}
 .padded-sm { padding: 1rem;}
+.padded-lg{ padding: 10%;}
 
 .bg-dark {
     background-color: #192b37;
@@ -51,7 +47,7 @@ h3 {line-height: 1;}
 
 P {
     font-weight: 200;
-    line-height: 1rem;
+    line-height: 1.5;
     margin-bottom: 1rem;
 }
 
@@ -59,22 +55,37 @@ p:last-child {
     margin-bottom: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color: #ffbe00;
+}
+
 .featured-text { color: #ffbe00}
 .white-text    {color: white;}
 
 .small-text  { font-size: 1.5rem;}
-.medium-text { font-size: 2rem;}
+.medium-text { 
+    font-size: 2rem;
+    line-height: 1.5;
+}
 .big-text    {font-size: 4.5rem;}
 
 .subtitle {
     
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(120,120,125);
 }
 
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1;
 }
 
 .font-weight-light      { font-weight: 200;}
@@ -95,7 +106,7 @@ p:last-child {
 
 
 
-/* Header styles */
+/* Header & footer styles */
 header{
     background-image: url('/images/the-slee-co-pillow\ \(1\).jpg');
     background-size: cover;
@@ -108,6 +119,9 @@ header h3{
     line-height: 1;
 }
 
+footer a {
+    border: none;
+}
 
 /*  background images */
 
