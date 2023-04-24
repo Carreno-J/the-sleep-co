@@ -7,13 +7,17 @@
 
 /* temporary styles for structual html */
 
-* {
+section {
     padding: 0.5rem;
     border: 1px solid rgb(225,225,225);
 }
 
-body {border: none;}
-html {border: none;}
+body {
+    
+    font-family: 'catamaran', sans-serif;
+    color: #192b37;
+}
+
 
 
 /* image styles */
@@ -32,4 +36,66 @@ html {border: none;}
 .bg-dark {
     background-color: #192b37;
     color: white;
+}
+
+
+/* typography styles */
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+P {
+    font-weight: 200;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.featured-text { color: #ffbe00}
+
+.font-weight-light      { font-weight: 200;}
+.font-weight-normal     { font-weight: normal;}
+.font-weight-extra-bold { font-weight: 800;}
+
+
+.text-left     {text-align: left;}
+.text-center   {text-align: center;}
+.text-right    {text-align: right;}
+
+.tall-50     {min-height: 50vh;}
+.tall-60     {min-height: 60vh;}
+.tall-70     {min-height: 70vh;}
+.tall-80     {min-height: 80vh;}
+.tall-90     {min-height: 90vh;}
+.tall-100    {min-height: 100vh;}
+
+
+
+/* Header styles */
+header{
+    background-image: url('/images/the-slee-co-pillow\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+header h3{
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+
+/*  background images */
+
+.bg-bed {background-image: url('/images/the-slee-co-lamp\ \(2\).jpg');}
+.bg-pug {
+    background-image: url('/images/the-slee-co-pug\(4\).jpg');
+    background-position: 50% 35%;
+
 }
