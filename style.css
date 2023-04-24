@@ -22,7 +22,7 @@ body {
 
 /* image styles */
 .bg-image {
-    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
+    /* background-image: url('/images/the-slee-co-bed\ \(3\).jpg'); */
     background-size: cover;
     min-height: 10rem;
 }
@@ -47,6 +47,8 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 {line-height: 1;}
+
 P {
     font-weight: 200;
     line-height: 1rem;
@@ -58,6 +60,22 @@ p:last-child {
 }
 
 .featured-text { color: #ffbe00}
+.white-text    {color: white;}
+
+.small-text  { font-size: 1.5rem;}
+.medium-text { font-size: 2rem;}
+.big-text    {font-size: 4.5rem;}
+
+.subtitle {
+    
+    font-size: 1rem;
+    color: rgb(120,120,125);
+}
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+}
 
 .font-weight-light      { font-weight: 200;}
 .font-weight-normal     { font-weight: normal;}
@@ -98,4 +116,18 @@ header h3{
     background-image: url('/images/the-slee-co-pug\(4\).jpg');
     background-position: 50% 35%;
 
+}
+
+.bg-pillow {
+    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
+    background-position: 50% 57%;
+}
+
+
+/* icon grid */ 
+.fa-solid {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }
