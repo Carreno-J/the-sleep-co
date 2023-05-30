@@ -347,7 +347,7 @@ color: inherit;
 
     html { font-size: 12px; }
 
-    body { border: 2px solid orchid; }
+    /* body { border: 2px solid orchid; } */
 
     .show-xs { display: block; }
     .hide-xs { display: none;  }
@@ -359,7 +359,7 @@ color: inherit;
 
     h2 { font-size: 2rem;}
 
-
+    
     .sm-text-center { text-align: center; }
     .sm-text-left   { text-align: left; }
     .sm-text-right  { text-align: right; }
