@@ -1,5 +1,15 @@
 ---
 layout: default
+cards:
+ - heading: Small heading
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias culpa fugit ex numquam aliquam non atque et, rem unde dolorum mollitia illo soluta hic, possimus, itaque adipisci id minima.
+   feature_image: /images/the-slee-co-bed\ \(3\).jpg
+ - heading: Small heading
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias culpa fugit ex numquam aliquam non atque et, rem unde dolorum mollitia illo soluta hic, possimus, itaque adipisci id minima.
+   feature_image: /images/the-slee-co-lamp\ \(2\).jpg
+ - heading: Small heading
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias culpa fugit ex numquam aliquam non atque et, rem unde dolorum mollitia illo soluta hic, possimus, itaque adipisci id minima.
+   feature_image: /images/the-slee-co-pillow\ \(1\).jpg
 ---
 
 <!--------------------------------- header banner------------------------------------------------->
@@ -54,35 +64,20 @@ layout: default
 <!-- cards -->
 
 <section class="grid padded">
-    <div class="col-4_xs-12"> 
-        <div class="card padded-sm">
-            <div class="bg-image portrait"> </div>
-            <div class="padded-1">
-                <h4> little heading </h4>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora maiores deserunt mollitia eius nesciunt libero quos ducimus, asperiores veritatis eum nam magnam fugit harum. Doloremque voluptatem recusandae numquam quam!</p>
-            </div>
-        </div>
-    </div>
 
+    {% for item in page.cards %}
     <div class="col-4_xs-12"> 
         <div class="card padded-sm">
-            <div class="bg-image portrait"> </div>
+            <div class="bg-image portrait" style="background-image: url('{{item.feature_image}}')"> </div>
             <div class="padded-1">
-                <h4> little heading </h4>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora maiores deserunt mollitia eius nesciunt libero quos ducimus, asperiores veritatis eum nam magnam fugit harum. Doloremque voluptatem recusandae numquam quam!</p>
+                <h4> {{item.heading}} </h4>
+                <p> {{item.description}}</p>
             </div>
         </div>
     </div>
+    {% endfor %}
 
-    <div class="col-4_xs-12"> 
-        <div class="card padded-sm">
-            <div class="bg-image portrait product-vh"> </div>
-            <div class="padded-1">
-                <h4> little heading </h4>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora maiores deserunt mollitia eius nesciunt libero quos ducimus, asperiores veritatis eum nam magnam fugit harum. Doloremque voluptatem recusandae numquam quam!</p>
-            </div>
-        </div>
-    </div>
+   
 
 </section>
 
