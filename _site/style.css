@@ -10,15 +10,26 @@
 
 /* image styles */
 .bg-image {
-    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  background-color: rgb(240,240,240);
+  background-image: url('https://source.unsplash.com/Sg3XwuEpybU');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
-.landscape{ padding-bottom: 65% }
-.portrait{ padding-bottom: 125% }
-.square{ padding-bottom: 100% }
+ /* Aspect Ratio  */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
 
 
 /* universal styles & utility classes */
@@ -209,7 +220,11 @@ footer a {
     background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
     background-position: 50% 57%;
 }
+/* image gallery */
 
+.gallery [class*="col-"] {
+    padding: 0.5%;
+  }
 
 /* icon grid */
 .fa-solid {
