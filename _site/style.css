@@ -10,25 +10,50 @@
 
 /*-------------------------------------- image styles ----------------------------------*/
 .bg-image {
-  background-color: rgb(240,240,240);
-  background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
+    background-color: rgb(240, 240, 240);
+    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
- /*---------------------------------- Aspect Ratio ------------------------------------------------ */
-.portrait-tall { padding-bottom: 175%; }
-.portrait { padding-bottom: 125%; }
-.square { padding-bottom: 100%; }
-.landscape { padding-bottom: 66%; }
-.landscape-wide { padding-bottom: 56%; }
+/*---------------------------------- Aspect Ratio ------------------------------------------------ */
+.portrait-tall {
+    padding-bottom: 175%;
+}
+
+.portrait {
+    padding-bottom: 125%;
+}
+
+.square {
+    padding-bottom: 100%;
+}
+
+.landscape {
+    padding-bottom: 66%;
+}
+
+.landscape-wide {
+    padding-bottom: 56%;
+}
 
 /*----------------------------------------------- Background Position ----------------------------------------------*/
-.bg-pos-t { background-position: top; }
-.bg-pos-b { background-position: bottom; }
-.bg-pos-l { background-position: left; }
-.bg-pos-r { background-position: right; }
+.bg-pos-t {
+    background-position: top;
+}
+
+.bg-pos-b {
+    background-position: bottom;
+}
+
+.bg-pos-l {
+    background-position: left;
+}
+
+.bg-pos-r {
+    background-position: right;
+}
 
 
 
@@ -69,7 +94,11 @@ body {
 
 /* typography styles */
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 1rem;
     line-height: 1;
 }
@@ -106,23 +135,33 @@ a {
 }
 
 nav a {
- display: inline-block;
+    display: inline-block;
 }
 
-a:hover { color: #ffbe00; }
+a:hover {
+    color: #ffbe00;
+}
 
-.featured-text { color: #ffbe00 }
+.featured-text {
+    color: #ffbe00
+}
 
-.white-text { color: white; }
+.white-text {
+    color: white;
+}
 
-.small-text { font-size: 1.5rem; }
+.small-text {
+    font-size: 1.5rem;
+}
 
 .medium-text {
     font-size: 2rem;
     line-height: 1.5;
 }
 
-.big-text { font-size: 4.5rem }
+.big-text {
+    font-size: 4.5rem
+}
 
 .subtitle {
 
@@ -137,20 +176,53 @@ a:hover { color: #ffbe00; }
     line-height: 1;
 }
 
-.font-weight-light { font-weight: 200; }
-.font-weight-normal { font-weight: normal; }
-.font-weight-extra-bold { font-weight: 800; }
+.font-weight-light {
+    font-weight: 200;
+}
 
-.text-left { text-align: left; }
-.text-center { text-align: center; }
-.text-right {  text-align: right; }
+.font-weight-normal {
+    font-weight: normal;
+}
 
-.tall-50 { min-height: 50vh; }
-.tall-60 { min-height: 60vh; }
-.tall-70 { min-height: 70vh; }
-.tall-80 { min-height: 80vh; }
-.tall-90  {min-height: 90vh; }
-.tall-100 { min-height: 100vh; }
+.font-weight-extra-bold {
+    font-weight: 800;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.tall-50 {
+    min-height: 50vh;
+}
+
+.tall-60 {
+    min-height: 60vh;
+}
+
+.tall-70 {
+    min-height: 70vh;
+}
+
+.tall-80 {
+    min-height: 80vh;
+}
+
+.tall-90 {
+    min-height: 90vh;
+}
+
+.tall-100 {
+    min-height: 100vh;
+}
 
 
 
@@ -200,7 +272,7 @@ footer a {
     z-index: 2;
 }
 
-,.hamburger-button i {
+.hamburger-button i {
     font-size: 2.2rem;
     margin-bottom: 0;
 }
@@ -221,11 +293,12 @@ footer a {
     background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
     background-position: 50% 57%;
 }
+
 /*----------------------------------------- image gallery------------------------------------------------ */
 
 .gallery [class*="col-"] {
     padding: 0.5%;
-  }
+}
 
 /*----------------------------------------- icon grid-------------------------------------------------- */
 .fa-solid {
@@ -237,7 +310,7 @@ footer a {
 
 
 input,
-textarea {    
+textarea {
     width: 100%;
     display: block;
     margin-bottom: 0.2rem;
@@ -254,71 +327,189 @@ textarea:focus {
     outline: none;
 }
 
-.button{
-padding: 0.5rem 2rem;
-background-color: #ffbe00;
-appearance: none;
-border: 2px solid #ffbe00;
-color: inherit;
+.button {
+    padding: 0.5rem 2rem;
+    background-color: #ffbe00;
+    appearance: none;
+    border: 2px solid #ffbe00;
+    color: inherit;
 }
 
- /*-----------------------------Utility Classes--------------------------- */
-/* Padding Utility Classes */ 
-.padded-sm { padding: 2.5%; }
-.padded    { padding: 5%;   }
-.padded-lg { padding: 10%;  }
+/*-----------------------------Utility Classes--------------------------- */
+/* Padding Utility Classes */
+.padded-sm {
+    padding: 2.5%;
+}
 
-.padded-05 { padding: 0.5rem; }
-.padded-1  { padding: 1rem; }
-.padded-2  { padding: 2rem; }
+.padded {
+    padding: 5%;
+}
 
-.padded-t  { padding-top: 5%; }
-.padded-b  { padding-bottom: 5%; }
-.padded-l  { padding-left: 5%; }
-.padded-r  { padding-right: 5%; }
+.padded-lg {
+    padding: 10%;
+}
 
-.padded-tb  { padding-top: 5%; padding-bottom: 5%; }
-.padded-lr  { padding-left: 5%; padding-right: 5%; }
+.padded-05 {
+    padding: 0.5rem;
+}
 
-.padded-t-1 { padding-top: 1rem; }
-.padded-b-1 { padding-bottom: 1rem; }
-.padded-l-1 { padding-left: 1rem; }
-.padded-r-1 { padding-right: 1rem; }
+.padded-1 {
+    padding: 1rem;
+}
 
-.padded-t-2 { padding-top: 2rem; }
-.padded-b-2 { padding-bottom: 2rem; }
-.padded-l-2 { padding-left: 2rem; }
-.padded-r-2 { padding-right: 2rem; }
+.padded-2 {
+    padding: 2rem;
+}
 
-.padded-t-0 { padding-top: 0; }
-.padded-b-0 { padding-bottom: 0; }
-.padded-l-0 { padding-left: 0; }
-.padded-r-0 { padding-right: 0; }
+.padded-t {
+    padding-top: 5%;
+}
 
-/* Margin Utility Classes */ 
+.padded-b {
+    padding-bottom: 5%;
+}
 
-.margin-t { margin-top: 5%; }
-.margin-b { margin-bottom: 5%; }
-.margin-l { margin-left: 5%; }
-.margin-r { margin-right: 5%; }
+.padded-l {
+    padding-left: 5%;
+}
 
-.margin-t-1 { margin-top: 1rem; }
-.margin-b-1 { margin-bottom: 1rem; }
-.margin-l-1 { margin-left: 1rem; }
-.margin-r-1 { margin-right: 1rem; }
+.padded-r {
+    padding-right: 5%;
+}
 
-.margin-t-2 { margin-top: 2rem; }
-.margin-b-2 { margin-bottom: 2rem; }
-.margin-l-2 { margin-left: 2rem; }
-.margin-r-2 { margin-right: 2rem; }
+.padded-tb {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
-.margin-t-0 { margin-top: 0; }
-.margin-b-0 { margin-bottom: 0; }
-.margin-l-0 { margin-left: 0; }
-.margin-r-0 { margin-right: 0; }
+.padded-lr {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
-.margin-tb { margin-top: 5%; margin-bottom: 5%; }
-.margin-lr { margin-left: 5%; margin-right: 5%; }
+.padded-t-1 {
+    padding-top: 1rem;
+}
+
+.padded-b-1 {
+    padding-bottom: 1rem;
+}
+
+.padded-l-1 {
+    padding-left: 1rem;
+}
+
+.padded-r-1 {
+    padding-right: 1rem;
+}
+
+.padded-t-2 {
+    padding-top: 2rem;
+}
+
+.padded-b-2 {
+    padding-bottom: 2rem;
+}
+
+.padded-l-2 {
+    padding-left: 2rem;
+}
+
+.padded-r-2 {
+    padding-right: 2rem;
+}
+
+.padded-t-0 {
+    padding-top: 0;
+}
+
+.padded-b-0 {
+    padding-bottom: 0;
+}
+
+.padded-l-0 {
+    padding-left: 0;
+}
+
+.padded-r-0 {
+    padding-right: 0;
+}
+
+/* Margin Utility Classes */
+
+.margin-t {
+    margin-top: 5%;
+}
+
+.margin-b {
+    margin-bottom: 5%;
+}
+
+.margin-l {
+    margin-left: 5%;
+}
+
+.margin-r {
+    margin-right: 5%;
+}
+
+.margin-t-1 {
+    margin-top: 1rem;
+}
+
+.margin-b-1 {
+    margin-bottom: 1rem;
+}
+
+.margin-l-1 {
+    margin-left: 1rem;
+}
+
+.margin-r-1 {
+    margin-right: 1rem;
+}
+
+.margin-t-2 {
+    margin-top: 2rem;
+}
+
+.margin-b-2 {
+    margin-bottom: 2rem;
+}
+
+.margin-l-2 {
+    margin-left: 2rem;
+}
+
+.margin-r-2 {
+    margin-right: 2rem;
+}
+
+.margin-t-0 {
+    margin-top: 0;
+}
+
+.margin-b-0 {
+    margin-bottom: 0;
+}
+
+.margin-l-0 {
+    margin-left: 0;
+}
+
+.margin-r-0 {
+    margin-right: 0;
+}
+
+.margin-tb {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margin-lr {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 /* General CSS Responsive styles (apply everywhere) */
@@ -331,106 +522,221 @@ color: inherit;
 }
 
 
-/* ------- MD Media Query (64em / 1024px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+/* ------- MD Media Query (64em / 1024px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 64em) {
 
-    body { border: 2px solid green; padding: 0.5rem; }
+    body {
+        border: 2px solid green;
+        padding: 0.5rem;
+    }
 
-    .show-md { display: block; }
-    .hide-md { display: none;  }
+    .show-md {
+        display: block;
+    }
 
-    .md-tall-80 { min-height: 80vh; }
-    .sm-tall-30 { min-height: 1 0vh; }
-  
-  }
+    .hide-md {
+        display: none;
+    }
+
+    .md-tall-80 {
+        min-height: 80vh;
+    }
+
+    .sm-tall-30 {
+        min-height: 1 0vh;
+    }
+
+}
 
 
-  /* ------- SM Media Query (48em / 768px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
+/* ------- SM Media Query (48em / 768px) --------------- */
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 
 @media (max-width: 48em) {
 
-    html { font-size: 14px; }
-    p { font-size: 1.1; }
+    html {
+        font-size: 14px;
+    }
 
-    body { border: 2px solid blue; }
+    p {
+        font-size: 1.1;
+    }
 
-    .show-sm { display: block; }
-    .hide-sm { display: none;  }
-    
-  .sm-text-center { text-align: center; }
-  .sm-text-left   { text-align: left; }
-  .sm-text-right  { text-align: right; }
+    body {
+        border: 2px solid blue;
+    }
 
-  .sm-padded      { padding: 5%; }
-  .sm-padded-1    { padding: 1rem; }
-  .sm-padded-05   { padding: 0.5rem; }
+    .show-sm {
+        display: block;
+    }
 
-  .sm-padded-t-0  { padding-top: 0; }
-  .sm-padded-b-0  { padding-bottom: 0; }
-  .sm-padded-l-0  { padding-left: 0; }
-  .sm-padded-r-0  { padding-right: 0; }
-  
-  .sm-margin-t-0  { margin-top: 0; }
-  .sm-margin-b-0  { margin-bottom: 0; }
-  .sm-margin-l-0  { margin-left: 0; }
-  .sm-margin-r-0  { margin-right: 0; }
+    .hide-sm {
+        display: none;
+    }
 
-  .logo h2 { font-size: 2rem; }
+    .sm-text-center {
+        text-align: center;
+    }
 
-  header h3 { font-size: 11vw;}
-  
+    .sm-text-left {
+        text-align: left;
+    }
+
+    .sm-text-right {
+        text-align: right;
+    }
+
+    .sm-padded {
+        padding: 5%;
+    }
+
+    .sm-padded-1 {
+        padding: 1rem;
+    }
+
+    .sm-padded-05 {
+        padding: 0.5rem;
+    }
+
+    .sm-padded-t-0 {
+        padding-top: 0;
+    }
+
+    .sm-padded-b-0 {
+        padding-bottom: 0;
+    }
+
+    .sm-padded-l-0 {
+        padding-left: 0;
+    }
+
+    .sm-padded-r-0 {
+        padding-right: 0;
+    }
+
+    .sm-margin-t-0 {
+        margin-top: 0;
+    }
+
+    .sm-margin-b-0 {
+        margin-bottom: 0;
+    }
+
+    .sm-margin-l-0 {
+        margin-left: 0;
+    }
+
+    .sm-margin-r-0 {
+        margin-right: 0;
+    }
+
+    .logo h2 {
+        font-size: 2rem;
+    }
+
+    header h3 {
+        font-size: 11vw;
+    }
+
 
 }
-    /* ------- XS Media Query (36em / 576px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+/* ------- XS Media Query (36em / 576px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 36em) {
 
-    html { font-size: 12px; }
+    html {
+        font-size: 12px;
+    }
 
     /* body { border: 2px solid orchid; } */
 
-    .show-xs { display: block; }
-    .hide-xs { display: none;  }
-
-    h1 {
-            font-size: 1.4rem;
-            line-height: 1.1;
+    .show-xs {
+        display: block;
     }
 
-    h2 { font-size: 2rem;}
+    .hide-xs {
+        display: none;
+    }
 
-    
-    .sm-text-center { text-align: center; }
-    .sm-text-left   { text-align: left; }
-    .sm-text-right  { text-align: right; }
-  
-    .sm-padded      { padding: 5%; }
-    .sm-padded-1    { padding: 1rem; }
-    .sm-padded-05   { padding: 0.5rem; }
-  
-    .sm-padded-t-0  { padding-top: 0; }
-    .sm-padded-b-0  { padding-bottom: 0; }
-    .sm-padded-l-0  { padding-left: 0; }
-    .sm-padded-r-0  { padding-right: 0; }
-    
-    .sm-margin-t-0  { margin-top: 0; }
-    .sm-margin-b-0  { margin-bottom: 0; }
-    .sm-margin-l-0  { margin-left: 0; }
-    .sm-margin-r-0  { margin-right: 0; }
+    h1 {
+        font-size: 1.4rem;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .sm-text-left {
+        text-align: left;
+    }
+
+    .sm-text-right {
+        text-align: right;
+    }
+
+    .sm-padded {
+        padding: 5%;
+    }
+
+    .sm-padded-1 {
+        padding: 1rem;
+    }
+
+    .sm-padded-05 {
+        padding: 0.5rem;
+    }
+
+    .sm-padded-t-0 {
+        padding-top: 0;
+    }
+
+    .sm-padded-b-0 {
+        padding-bottom: 0;
+    }
+
+    .sm-padded-l-0 {
+        padding-left: 0;
+    }
+
+    .sm-padded-r-0 {
+        padding-right: 0;
+    }
+
+    .sm-margin-t-0 {
+        margin-top: 0;
+    }
+
+    .sm-margin-b-0 {
+        margin-bottom: 0;
+    }
+
+    .sm-margin-l-0 {
+        margin-left: 0;
+    }
+
+    .sm-margin-r-0 {
+        margin-right: 0;
+    }
 }
 
-  /* ------- XS Media Query (25em / 400px) --------------- */ 
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+/* ------- XS Media Query (25em / 400px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 25em) {
     [class*="grid"] .xxs-stack {
-flex-basis: 100%;
-max-width: 100%;
-}
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 
 
 
