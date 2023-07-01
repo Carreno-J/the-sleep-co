@@ -8,23 +8,23 @@
     padding: 0;
 }
 
-/* image styles */
+/*-------------------------------------- image styles ----------------------------------*/
 .bg-image {
   background-color: rgb(240,240,240);
-  background-image: url('https://source.unsplash.com/Sg3XwuEpybU');
+  background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
 }
 
- /* Aspect Ratio  */
+ /*---------------------------------- Aspect Ratio ------------------------------------------------ */
 .portrait-tall { padding-bottom: 175%; }
 .portrait { padding-bottom: 125%; }
 .square { padding-bottom: 100%; }
 .landscape { padding-bottom: 66%; }
 .landscape-wide { padding-bottom: 56%; }
 
-/* Background Position */
+/*----------------------------------------------- Background Position ----------------------------------------------*/
 .bg-pos-t { background-position: top; }
 .bg-pos-b { background-position: bottom; }
 .bg-pos-l { background-position: left; }
@@ -32,7 +32,7 @@
 
 
 
-/* universal styles & utility classes */
+/*----------------------------------------------- universal styles & utility classes --------------------------*/
 body {
 
     font-family: 'catamaran', sans-serif;
@@ -154,7 +154,8 @@ a:hover { color: #ffbe00; }
 
 
 
-/* Header & footer styles */
+/* ----------------------------------Header & footer styles---------------------------------- */
+
 header {
     background-image: url('/images/the-slee-co-pillow\ \(1\).jpg');
     background-size: cover;
@@ -177,7 +178,7 @@ footer a {
     border: none;
 }
 
-/* mobile menu Styles */
+/*------------------------------------------------------------------- mobile menu Styles-------------------------------------- */
 
 .mobile-menu {
     position: fixed;
@@ -204,7 +205,7 @@ footer a {
     margin-bottom: 0;
 }
 
-/*  background images */
+/* --------------------------------------------------------------- background images------------------------------------------------ */
 
 .bg-bed {
     background-image: url('/images/the-slee-co-lamp\ \(2\).jpg');
@@ -220,13 +221,13 @@ footer a {
     background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
     background-position: 50% 57%;
 }
-/* image gallery */
+/*----------------------------------------- image gallery------------------------------------------------ */
 
 .gallery [class*="col-"] {
     padding: 0.5%;
   }
 
-/* icon grid */
+/*----------------------------------------- icon grid-------------------------------------------------- */
 .fa-solid {
     display: block;
     text-align: center;
