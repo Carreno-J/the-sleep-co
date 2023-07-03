@@ -11,7 +11,7 @@
 /*-------------------------------------- image styles ----------------------------------*/
 .bg-image {
     background-color: rgb(240, 240, 240);
-    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
+    background-image: url('/images/the-sleep-co-bed.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@ a:hover {
 /* ----------------------------------Header & footer styles---------------------------------- */
 
 header {
-    background-image: url('/images/the-slee-co-pillow\ \(1\).jpg');
+    background-image: url('/images/the-sleep-co-pillow.jpg');
     background-size: cover;
     background-position: center;
     padding: 1% 5%;
@@ -280,17 +280,17 @@ footer a {
 /* --------------------------------------------------------------- background images------------------------------------------------ */
 
 .bg-bed {
-    background-image: url('/images/the-slee-co-lamp\ \(2\).jpg');
+    background-image: url('/images/the-sleep-co-bed.jpg');
 }
 
 .bg-pug {
-    background-image: url('/images/the-slee-co-pug\(4\).jpg');
+    background-image: url('/images/the-sleep-co-pug.jpg');
     background-position: 50% 35%;
 
 }
 
 .bg-pillow {
-    background-image: url('/images/the-slee-co-bed\ \(3\).jpg');
+    background-image: url('/images/the-sleep-co-pillow.jpg');
     background-position: 50% 57%;
 }
 
