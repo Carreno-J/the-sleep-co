@@ -7,13 +7,16 @@ gallery:
  - column-size: col-4_sm-12
    aspect-ratio: square
    background_image: /images/the-sleep-co-pug.jpg
- - column-size: col-3_sm-12
-   aspect-ratio: landscape
+ - column-size: col-4_sm-12
+   aspect-ratio: square
+   background_image: /images/the-sleep-co-pug.jpg
+ - column-size: col-12_sm-12
+   aspect-ratio: square
    background_image: /images/the-sleep-co-pug.jpg
  - column-size: col-6_sm-12
    aspect-ratio: square
    background_image: /images/the-sleep-co-pug.jpg
- - column-size: col-3_sm-12
+ - column-size: col-6_sm-12
    aspect-ratio: square
    background_image: /images/the-sleep-co-pug.jpg
 ---
@@ -33,6 +36,23 @@ gallery:
 
 <section class="padded">
 
+    <h2> Popup Gallery</h2>
+    <div class="gallery grid" id="lightgallery">
+
+        {% for item in page.gallery %}
+        <a class="{{item.column-size}}" href="{{item.background_image}}">
+            <div class="bg-image {{item.aspect-ratio}}" style="background-image: url('{{item.background_image}}');">
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+ </section>
+
+ <section class="padded">
+
+ <h2> Standard Gallery</h2>
+ <!-- Standard Gallery -->
     <div class="gallery grid">
         {% for item in page.gallery %}
         <div class="{{item.column-size}}">
@@ -41,6 +61,8 @@ gallery:
         </div>
         {% endfor %}
     </div>
+
+
         <!-- <div class="gallery grid">
             <div class="col-6">
                 <div class="bg-image square bg-img-1"></div>
